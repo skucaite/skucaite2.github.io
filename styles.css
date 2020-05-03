@@ -1,0 +1,146 @@
+@import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);
+/*400 for normal, 700 for bold*/
+
+body {
+  color: #555;
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+}
+
+#header li {
+  max-width: 1100px;
+  margin: 0 auto;}
+
+#header {
+  background-color: #c3dbe8;
+  height: 80px;
+  line-height: 80px;
+  position:sticky;
+  top:0px;
+  width: 100%;
+  text-transform: uppercase;
+  letter-spacing: 0.07em;
+  margin-bottom: 0;
+}
+
+#header a {
+  color: #1761a0;
+  text-decoration: none;
+}
+
+#header-title {
+  display: block;
+  float: left;
+  font-size: 20px;
+  font-weight: bold;
+  margin-left: 60px;
+}
+
+
+#header-nav {
+  display: block;
+  float: right;
+  margin-top: 0;
+  margin-right: 60px;
+  margin-bottom: 0;
+}
+
+#header-nav li {
+  display: inline;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-weight: bold;
+}
+
+#header-nav li:hover {
+  background-color: #fc6e56;
+  padding: 15px 20px 15px 20px;
+  border-radius: 2px;
+}
+
+#header-nav a:hover {
+  color: #ffffff;
+}
+
+#content {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding-top: 0;
+  line-height: 1.7;
+}
+
+
+#fonas img {
+  object-fit: cover;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+    color: #333;
+}
+
+#footer {          /*Pataisyti puslapių apačią*/
+  height: 100px;
+  line-height: 100px;
+  background-color: #c3dbe8;
+  color: #1761a0;
+  text-transform: uppercase;
+  letter-spacing: 0.15em;
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 0;
+}
+
+
+/*Index body begin*/
+.post1 {
+  max-width: 350px;
+  min-width: 150px;
+  display: inline-block;
+  margin: 0 45px auto 0;
+  vertical-align: top;
+  padding-top: 50px;
+}
+
+.post img {   /*resize*/
+  max-height: 150px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  background: #e5ecf4;
+  padding: 30px 100px 30px 100px;
+  border-radius: 40px;
+  box-shadow: 0 1px 2px 0 #555;
+}
+
+#help {
+  color: #fc6e56;
+  text-decoration: none;
+}
+/*Index body end*/
+
+/*Services body begin*/
+.service1 {
+  width: 350px;
+  min-width: 150px;
+  display: inline-block;
+  margin: 0 40px auto 0;
+  line-height: 1.7;
+  vertical-align: top;
+  padding-top: 40px;
+}
+
+.service1 h2 {
+  line-height: 1.0;
+  letter-spacing: 0.03em;
+  color: #333;
+}
+/*Services body end*/
+
+
+/*Contact body begin*/
+
+/*Contact body end*/
